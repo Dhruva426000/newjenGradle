@@ -10,7 +10,7 @@ pipeline {
       stages {
          stage('Checkout'){
          steps{
-          git branch: 'main', url:'https://github.com/DakshhBN/Gradle.git'
+          git branch: 'main', url:'https://github.com/Dhruva426000/newjenGradle'
           }}
           
           stage('Build'){
