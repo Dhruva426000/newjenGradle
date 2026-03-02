@@ -26,7 +26,7 @@ pipeline {
           stage('Run Application')
          {
          steps{
-         sh 'gradle display'
+         sh 'gradle run'
          }}
 }
  post {
